@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: linkedin-profile-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: LI_AT
+        sync: false          # Set this manually in Render dashboard — never commit!
+      - key: JSESSIONID
+        sync: false          # Set this manually in Render dashboard — never commit!
+    healthCheckPath: /
+    autoDeploy: true
