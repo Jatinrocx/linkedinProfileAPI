@@ -2,8 +2,6 @@
 
 A publicly hosted REST API that reverse-engineers LinkedIn's internal Voyager API to fetch structured JSON profile data from any LinkedIn profile URL.
 
-Built for the **Tross Hiring Challenge**.
-
 ---
 
 ## 🚀 Live API
@@ -317,13 +315,3 @@ linkedinProfileAPI/
 ├── requirements.txt               # Python dependencies
 └── README.md                      # This file
 ```
-
----
-
-## 📄 License
-
-MIT — see [LICENSE](LICENSE) for details.
-
----
-
-*Built for the Tross Hiring Challenge by [YOUR NAME].*
